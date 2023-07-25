@@ -1,3 +1,5 @@
+// this is one of the few files that (I think) don't need to be touched
+
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');

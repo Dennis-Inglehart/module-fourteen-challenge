@@ -1,3 +1,6 @@
+// TODO: rename this file, and its mentions of `project` to `thoughts`
+// that `needed_funding` part needs to be removed, or altered to something appropriate for this app
+
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 

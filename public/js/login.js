@@ -1,3 +1,5 @@
+// this looks fine, except for maybe that `application/json` header on line 36
+
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
@@ -6,7 +8,6 @@ const loginFormHandler = async (event) => {
   const password = document.querySelector('#password-login').value.trim();
 
   if (email && password) {
-    // Send a POST request to the API endpoint
     const response = await fetch('/api/users/login', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
@@ -14,7 +15,6 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      // If successful, redirect the browser to the profile page
       document.location.replace('/profile');
     } else {
       alert(response.statusText);

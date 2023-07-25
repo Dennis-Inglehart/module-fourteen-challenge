@@ -1,3 +1,5 @@
+// This all looks fine. There should probably be a session timeout somewhere (I think that's missing, and I think it should go here)
+
 const router = require('express').Router();
 const { User } = require('../../models');
 

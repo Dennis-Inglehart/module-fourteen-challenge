@@ -1,3 +1,5 @@
+// TODO: rename the many instances `project` to `thoughts`; that `needed_funding` also needs to change
+
 const newFormHandler = async (event) => {
   event.preventDefault();
 

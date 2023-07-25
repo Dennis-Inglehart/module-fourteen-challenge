@@ -1,17 +1,21 @@
+/*
+We don't need anything here. This entire file can be deleted.
+It has to be deleted carefully, because if it's deleted with everything as-is, that will probably break something....
+*/
+
 module.exports = {
+  // maybe this is actually necessary..?
   format_date: (date) => {
-    // Format date as MM/DD/YYYY
     return date.toLocaleDateString();
   },
   format_amount: (amount) => {
-    // format large numbers with commas
+
     return parseInt(amount).toLocaleString();
   },
   get_emoji: () => {
     const randomNum = Math.random();
-
-    // Return a random emoji
-    if (randomNum > 0.7) {
+    
+  if (randomNum > 0.7) {
       return `<span for="img" aria-label="lightbulb">💡</span>`;
     } else if (randomNum > 0.4) {
       return `<span for="img" aria-label="laptop">💻</span>`;

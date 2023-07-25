@@ -19,3 +19,13 @@ Seeding the database is awkward, but once the database is created and seeded, th
 ## Future Development
 
 For better or worse, the time constraints on this project left a lot of room for this.
+
+All the code here so far is merely a template. The core functionality is mostly here already, completion is mostly a matter of renaming a bunch of stuff (varuiables, routes, filenames, etc.) and modifying the database so it makes sense.
+
+Also, the entire front end needs to be addressed. But our `main.handlebars` already looks good, so that shouldn't be too big of a deal.
+
+## Accreditation
+
+This code here is modeled heavily after a in-class project in the curriculum content. It's essentially copied whole cloth. The source of the model is: (/14-MVC/01-Activities/28-Stu_Mini-Project/Main)
+
+I myself have made no meaningfulcontributions to any part of the code.
