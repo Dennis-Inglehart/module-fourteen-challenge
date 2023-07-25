@@ -25,5 +25,13 @@
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
   },
-  "description": ""
+  "description": "![MySQL](https://img.shields.io/badge/MySQL-%5E8.0.23-blue)\r ![Sequelize](https://img.shields.io/badge/Sequelize-%5E6.6.5-blue)\r ![Handlebars.js](https://img.shields.io/badge/Handlebars.js-%5E4.7.7-blue)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dennis-Inglehart/module-fourteen-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dennis-Inglehart/module-fourteen-challenge/issues"
+  },
+  "homepage": "https://github.com/Dennis-Inglehart/module-fourteen-challenge#readme"
 }
