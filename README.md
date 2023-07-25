@@ -25,6 +25,12 @@ The Heroku deployment doesn't work (at the time of writing), but here's the link
 
 Seeding the database is awkward, but once the database is created and seeded, this app will do something. You'll need to have a `.env` file in the root directory, filled out with `DB_NAME=articles_db`, and `DB_USER=[your-name-here]`, and `DB_PASSWORD=[your-password-here]`
 
+### Note on Heroku link
+
+I'm 90% sure that the reason the app won't start on the Heroku deployment is: Heroku is asking Port 3306 if there's a database, and there's supposed to be one (on localhost (127.0.0.1), incidentally), but there's not.
+
+So: if I seeded my own database, my heroku deployment would work. But I am desperately short on time, and can not trouble myself with doing so.
+
 ## Future Development
 
 For better or worse, the time constraints on this project left a lot of room for this.
