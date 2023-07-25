@@ -1,3 +1,5 @@
+// TODO: this schema is fine, just gotta rename `project` to `thoughts` (might need to add a section for the responses to `thoughts`, too)
+
 const User = require('./User');
 const Project = require('./Project');
 

@@ -1,3 +1,5 @@
+// this looks fine, except for maybe that `application/json` header on line 4
+
 const logout = async () => {
   const response = await fetch('/api/users/logout', {
     method: 'POST',

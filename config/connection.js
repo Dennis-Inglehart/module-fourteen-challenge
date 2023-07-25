@@ -1,3 +1,5 @@
+// this is one of the few files that doesn't need to be altered at all
+
 const Sequelize = require('sequelize');
 require('dotenv').config();
 

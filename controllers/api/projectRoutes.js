@@ -1,3 +1,5 @@
+//TODO: rename this file, and the stuff in it named `project`; change it to `thoughts`
+
 const router = require('express').Router();
 const { Project } = require('../../models');
 const withAuth = require('../../utils/auth');
@@ -25,7 +27,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     });
 
     if (!projectData) {
-      res.status(404).json({ message: 'No project found with this id!' });
+      res.status(404).json({ message: 'No thought found with this id!' });
       return;
     }
 

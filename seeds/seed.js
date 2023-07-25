@@ -1,3 +1,6 @@
+// TODO: rename everything appropriately (`projectData` should be `thoughtsData`, etc.)
+// NOTE: both of the .jsons in this directory need to be overhauled
+
 const sequelize = require('../config/connection');
 const { User, Project } = require('../models');
 
