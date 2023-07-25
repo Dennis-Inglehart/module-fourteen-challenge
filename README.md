@@ -14,7 +14,16 @@ Users can create an account, login with their account, post blogs while logged i
 
 ## Usage Instructions
 
-Seeding the database is awkward, but once the database is created and seeded, this app will do something. You'll need to have a `.env` file in the root directory, filled out with `DB_NAME=`, and `DB_USER=`, and `DB_PASSWORD=`
+The usual:
+
+* in the terminal, run the command `npm install`
+* in the terminal, run the command `npm start`
+* it shouldn't need any dependencies to be installed especially, but y'never know
+* it should be running on `http://localhost:3001/`
+
+The Heroku deployment doesn't work (at the time of writing), but here's the link to it anyway: [Heroku link](https://module-fourteen-challenge-f4270abae08c.herokuapp.com/)
+
+Seeding the database is awkward, but once the database is created and seeded, this app will do something. You'll need to have a `.env` file in the root directory, filled out with `DB_NAME=articles_db`, and `DB_USER=[your-name-here]`, and `DB_PASSWORD=[your-password-here]`
 
 ## Future Development
 
